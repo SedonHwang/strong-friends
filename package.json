@@ -1,0 +1,23 @@
+{
+  "name": "strong-friends",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env PORT=80 pm2 start src/app.js -i 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SedonHwang/strong-friends.git"
+  },
+  "author": "StrongFriend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SedonHwang/strong-friends/issues"
+  },
+  "homepage": "https://github.com/SedonHwang/strong-friends#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
